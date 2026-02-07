@@ -15,7 +15,7 @@ import json
 # ---------------- CONFIGURAÇÕES ---------------- #
 TOKEN_DISCORD = os.environ.get("DISCORD_TOKEN")
 GEMINI_KEY = os.environ.get("GEMINI_KEY")
-ADMIN_PASSWORD = "030912"
+ADMIN_PASSWORD = ""
 
 # Configuração Gemini
 genai.configure(api_key=GEMINI_KEY)
