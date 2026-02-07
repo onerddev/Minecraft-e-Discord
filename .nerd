@@ -1,5 +1,5 @@
 modules = ["python-3.11", "nodejs-20"]
-[agent]
+[onerd]
 expertMode = true
 integrations = ["python_gemini:1.0.0", "python_anthropic:1.0.0"]
 
