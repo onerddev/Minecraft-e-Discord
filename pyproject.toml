@@ -1,0 +1,20 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.74.1",
+    "discord-py>=2.6.3",
+    "eventlet>=0.40.4",
+    "flask>=3.1.2",
+    "google-genai>=1.38.0",
+    "google-generativeai>=0.8.5",
+    "gunicorn>=23.0.0",
+    "psutil>=7.2.1",
+    "pynacl>=1.6.1",
+    "sift-stack-py>=0.9.1",
+    "spotipy>=2.25.1",
+    "wavelink>=3.4.1",
+    "yt-dlp>=2025.11.12",
+]
